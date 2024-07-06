@@ -35,9 +35,18 @@ Este sistema é útil para demonstrar conceitos básicos de manipulação de ban
    - O script exibe um menu de opções numeradas onde o usuário pode escolher entre adicionar, visualizar, atualizar ou excluir clientes, além de sair do programa.
 
 ## EXECUTANDO O PROJETO:
-- Execute o script Python em um ambiente com SQLite instalado.
-- Siga as instruções apresentadas no menu para realizar as operações desejadas.
-- Os dados dos clientes são armazenados no arquivo `"database.db"` no mesmo diretório do código.
+1. **Instalação das Dependências::**
+   - Entre no diretório `CODIGO` e execute o comando:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Para executar o arquivo Python, utilize o comando abaixo no terminal, dentro do diretório `./CODIGO`:
+
+   ```
+   python CODIGO.py
+   ```
 
 ## SOBRE O EXECUTAVEL:
 ### 1. EXECUTANDO:
