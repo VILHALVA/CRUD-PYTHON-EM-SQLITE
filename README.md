@@ -35,14 +35,7 @@ Este sistema é útil para demonstrar conceitos básicos de manipulação de ban
    - O script exibe um menu de opções numeradas onde o usuário pode escolher entre adicionar, visualizar, atualizar ou excluir clientes, além de sair do programa.
 
 ## EXECUTANDO O PROJETO:
-1. **Instalação das Dependências::**
-   - Entre no diretório `CODIGO` e execute o comando:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Para executar o arquivo Python, utilize o comando abaixo no terminal, dentro do diretório `./CODIGO`:
+- Para executar o arquivo Python, utilize o comando abaixo no terminal, dentro do diretório `./CODIGO`:
 
    ```
    python CODIGO.py
