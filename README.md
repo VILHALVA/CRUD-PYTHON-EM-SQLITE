@@ -41,26 +41,6 @@ Este sistema é útil para demonstrar conceitos básicos de manipulação de ban
    python CODIGO.py
    ```
 
-## SOBRE O EXECUTAVEL:
-### 1. EXECUTANDO:
-- Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente; é para isso que forneci o arquivo `imagem.ico`.
-
-### 2. GERANDO:
-   **1. Instalação do [PyInstaller:](https://pyinstaller.org/en/stable/)**
-   - Certifique-se de ter o PyInstaller instalado. Se não tiver, instale usando o comando abaixo:
-   ```bash
-   pip install pyinstaller
-   ```
-
-   **2. Gerando o Executável:**
-   - Para gerar o executável, utilize o comando `pyinstaller` seguido de opções:
-      - `--icon="imagem.ico"`: Especifica o ícone do executável.
-      - `-F`: Gera um único arquivo executável em vez de vários.
-      - `CODIGO.py`: Substitua "CODIGO.py" pelo nome do seu arquivo Python principal.
-   ```bash
-   pyinstaller --icon="imagem.ico" -F CODIGO.py
-   ```
-
 ## CREDITOS:
 - [PROJETO CRIADO PARA CURSO DE PYTHON COM SQLITE](https://github.com/VILHALVA/CURSO-DE-PYTHON-COM-SQLITE)
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
