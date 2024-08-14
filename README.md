@@ -35,11 +35,27 @@ Este sistema é útil para demonstrar conceitos básicos de manipulação de ban
    - O script exibe um menu de opções numeradas onde o usuário pode escolher entre adicionar, visualizar, atualizar ou excluir clientes, além de sair do programa.
 
 ## EXECUTANDO O PROJETO:
-- Para executar o arquivo Python, utilize o comando abaixo no terminal, dentro do diretório `./CODIGO`:
+1. **Executando** Para executar o arquivo Python, utilize o comando abaixo no terminal, dentro do diretório `./CODIGO`:
 
    ```
    python CODIGO.py
    ```
+
+2. **Escolha uma opção** do menu digitando o número correspondente e pressionando Enter:
+   - **Digite `1`** para inserir um novo cliente.
+     - **Forneça o nome, telefone e email** do cliente quando solicitado.
+   - **Digite `2`** para visualizar todos os clientes.
+     - **Leia a lista de clientes** exibida no terminal.
+   - **Digite `3`** para atualizar um cliente existente.
+     - **Informe o ID do cliente** que deseja atualizar.
+     - **Forneça o novo nome, telefone e email** para o cliente.
+   - **Digite `4`** para deletar um cliente.
+     - **Informe o ID do cliente** que deseja deletar.
+   - **Digite `5`** para sair do aplicativo.
+
+3. **Siga as instruções na tela** para cada operação.
+
+4. **Repita as ações** conforme necessário até escolher sair.
 
 ## CREDITOS:
 - [PROJETO CRIADO PARA CURSO DE PYTHON COM SQLITE](https://github.com/VILHALVA/CURSO-DE-PYTHON-COM-SQLITE)
